@@ -3,7 +3,7 @@
 :root {
     --main-color : #FEF9EA;
     --secondary-color: #78B8C6;
-    --tirtiary-color: #BAD6F6;
+    --tirtiary-color: #BAD6D6;
     --white: #FFFFFF;
     --black: #000000;
 }
@@ -18,6 +18,13 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+}
+html, body {
+    overflow: hidden;  
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color: var(--main-color);
@@ -123,6 +130,18 @@ body {
                 justify-content: center;
                 color: var(--secondary-color);
                 background-color: var(--white);
+                right: 235px;
+            }
+            .explore-btn a{
+                text-decoration: none;
+                color: var(--secondary-color);
+                height: 75px;
+                width: 300px;
+            }
+            .explore-btn:hover, .explore-btn a:hover{
+                background-color: var(--tirtiary-color);
+                color: var(--main-color);
+                border: 3px solid var(--tirtiary-color);
             }
 
     .pet-images{
@@ -206,7 +225,17 @@ body {
         border-radius: 25px;
         color: var(--secondary-color);
         background-color: var(--white); 
-    }
+        text-decoration: none;
+        }
+        .category-header a{
+            text-decoration: none;
+            color: var(--secondary-color);
+        }
+        .home:hover, .home a:hover {
+            color: var(--main-color);
+            background-color: var(--tirtiary-color);
+            border: var(--tirtiary-color) 2px solid;
+        }
     .search-pets{
         border: 2px solid var(--secondary-color) ;
         height: 50px;
@@ -266,14 +295,131 @@ body {
 .category-buttons{
     height: 30vh;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
     }
     .pet-category{
         height: 30vh;
-        width: 20vw;
-        border: 1px solid black;
+        width: 16vw;        
     }
+    .dog-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width:16vw;
+        position: relative;
+        }
+        .dog-button img {
+            height: 100px;
+            width: 100px;   
+        }
+        .dog-button img:nth-child(1){
+            position: absolute;
+            top: 15px;
+            left: 0px;
+        }
+        .dog-button img:nth-child(2){
+            position: absolute;
+            bottom: 30px;
+            right: 0px;
+
+        }
+        .dog-category-btn {
+            height: 75px;
+            width: 15vw     ;
+            border: 3px solid var(--secondary-color);
+            color: var(--secondary-color);
+            background-color: var(--white);
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+    .cat-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 16vw;
+        position: relative;
+        }
+        .cat-button img {
+            height: 100px;
+            width: 150px; 
+            position: absolute;
+            bottom: 119px
+        }
+        .cat-category-btn {
+            height: 75px;
+            width: 15vw     ;
+            border: 3px solid var(--secondary-color);
+            color: var(--secondary-color);
+            background-color: var(--white);
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+    .fish-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 16vw;
+        position: relative;
+        }
+        .fish-button img:nth-child(1) {
+            height: 140px;
+            width: 150px; 
+            position: absolute;
+            right: 120px;
+        }
+        .fish-button img:nth-child(2) {
+            height: 140px;
+            width: 150px; 
+            position: absolute;
+            left: 110px;   
+            bottom: 20px;
+        }
+        .fish-category-btn {
+            height: 75px;
+            width: 15vw     ;
+            border: 3px solid var(--secondary-color);
+            color: var(--secondary-color);
+            background-color: var(--white);
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+    .bird-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 16vw;
+        position: relative;
+        }
+        .bird-button img {
+            height: 100px;
+            width: 150px; 
+            position: absolute;
+            bottom: 115px;
+        }
+        .bird-category-btn {
+            height: 75px;
+            width: 15vw     ;
+            border: 3px solid var(--secondary-color);
+            color: var(--secondary-color);
+            background-color: var(--white);
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }

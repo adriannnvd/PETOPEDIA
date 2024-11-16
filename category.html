@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Category</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -10,9 +11,11 @@
 </head>
 <body>
     <header class="category-header">
-        <div class="home">
-            <h2>Home</h2>
-        </div>
+        <a href="/home.html">
+            <div class="home">
+                <h2>Home</h2>
+            </div>
+        </a>
         <div class="search-pets">
             <div class="searchbar">
                 <input type="text" placeholder="Search..." />
@@ -27,18 +30,35 @@
         <img src="/images/main/main-logo.png" alt="logo">
     </div>
     <div class="category-buttons">
-        <div class="pet-category">
-            <img src="" alt="">
-        </div>
-        <div class="pet-category">
+        <div class="pet-category dog-button">
+            <img src="/images/category/dog-icon1.png" alt="dog-icon1">
+            <img src="/images/category/dog-icon2.png" alt="dog-icon2">
+            <div class="dog-category-btn">
+                <h2>Dog</h2>
+            </div>
 
         </div>
-        <div class="pet-category">
-
+        <div class="pet-category cat-button">
+            <img src="/images/category/cat-icon.png" alt="cat-icon">
+            <div class="cat-category-btn">
+                <h2>Cat</h2>
+            </div>
         </div>
-        <div class="pet-category">
+        <div class="pet-category fish-button">
+            <img src="/images/category/fish-icon1.png" alt="fish-icon1">
+            <img src="/images/category/fish-icon2.png" alt="fish-icon2">
 
+            <div class="fish-category-btn">
+                <h2>Fish</h2>
+            </div>
+        </div>
+        <div class="pet-category bird-button">
+            <img src="/images/category/bird-icon.png" alt="bird-icon">
+            <div class="bird-category-btn">
+                <h2>Bird</h2>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script> 
 </body>
 </html>
