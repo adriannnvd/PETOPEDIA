@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tilt+Neon&display=swap');
 
 :root {
     --main-color : #FEF9EA;
@@ -63,7 +63,16 @@ body {
                 border-radius: 25px;
                 color: var(--secondary-color);
                 background-color: var(--white);
-            }
+                }
+                .main-header a {
+                    text-decoration: none;
+                    color: var(--secondary-color);
+                }
+                .about:hover, .about a:hover {
+                    background-color: var(--tirtiary-color);
+                    border-color: 2px solid var(--tirtiary-color);
+                    color: var(--main-color);
+                }
             .contact{
                 border: 2px solid var(--secondary-color) ;
                 padding: 10px;
@@ -75,7 +84,12 @@ body {
                 border-radius: 25px;
                 color: var(--secondary-color);
                 background-color: var(--white);
-            }
+                }
+                .contact:hover, .contact a:hover {
+                    background-color: var(--tirtiary-color);
+                    border-color: 2px solid var(--tirtiary-color);
+                    color: var(--main-color);
+                }
             .main-search {
                 color: var(--white);
                 background-color: var(--secondary-color);
@@ -205,7 +219,7 @@ body {
 
             
 /* --------------------CATEGORY------------------------ */
-.category-header{
+.category-header, .header{
     height: 10vh;
     width: 100%;
     display: flex;
@@ -227,7 +241,7 @@ body {
         background-color: var(--white); 
         text-decoration: none;
         }
-        .category-header a{
+        .header a{
             text-decoration: none;
             color: var(--secondary-color);
         }
@@ -262,6 +276,8 @@ body {
             background-color:var(--white); 
             outline: none;
             transition: width 0.3s ease-in-out, border-color 0.3s ease;
+            font-size: 1rem;
+
             }
             .searchbar input:focus{
                 border-color: var(--secondary-color);
@@ -423,3 +439,489 @@ body {
             align-items: center;
             font-size: 1.5rem;
         }
+
+/* --------------------ABOUT------------------------ */
+
+.about-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .about-cont1 {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        }
+        .about-logo img {
+            height: 500px;
+        }
+    .about-cont2 {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+        .about-header {
+            height: 10vh;
+            width: 100%;
+        }
+        .about-content {
+            height: 60vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 1.75rem;
+            }
+            .about-content span {
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        .about-buttons {
+            height: 30vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: baseline;
+            }
+            .about-pet-button {
+                height: 100%;
+                width: 25%;
+                
+            }
+            .about-dog{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 60px;
+                position: relative;
+                }
+                .about-dog img {
+                    height: 80px;
+                    position: absolute;
+                }
+                .about-dog img:nth-child(1) {
+                    top: 10px;
+                    right: 150px;
+                }
+                .about-dog img:nth-child(2) {
+                    bottom: 75px;
+                    left: 150px;
+                }
+                .dog-about-btn {
+                    height: 60px;;
+                    width: 200px;
+                    border: 2px solid var(--secondary-color);
+                    background-color: var(--white);
+                    border-radius: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--secondary-color);
+                }
+            .about-cat{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 60px;
+                position: relative;
+                }
+                .about-cat img {
+                    height: 80px;
+                    position: absolute;
+                    bottom: 142px;
+                }
+                
+                .cat-about-btn {
+                    height: 60px;;
+                    width: 200px;
+                    border: 2px solid var(--secondary-color);
+                    background-color: var(--white);
+                    border-radius: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--secondary-color);
+                }
+            .about-fish{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 60px;
+                position: relative;
+                }
+                .about-fish img {
+                    height: 100px;
+                    position: absolute;
+                }
+                .about-fish img:nth-child(1) {
+                    top: 20px;
+                    right: 140px;
+                }
+                .about-fish img:nth-child(2) {
+                    bottom: 75px;
+                    left: 120px;
+                }
+                .fish-about-btn {
+                    height: 60px;;
+                    width: 200px;
+                    border: 2px solid var(--secondary-color);
+                    background-color: var(--white);
+                    border-radius: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--secondary-color);
+                }
+            .about-bird{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 60px;
+                position: relative;
+                }
+                .about-bird img {
+                    height: 80px;
+                    position: absolute;
+                    bottom: 145px;
+                }
+                
+                .bird-about-btn {
+                    height: 60px;;
+                    width: 200px;
+                    border: 2px solid var(--secondary-color);
+                    background-color: var(--white);
+                    border-radius: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--secondary-color);
+                }
+
+/* --------------------CONTACT------------------------ */
+.contact-header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    }
+    .contact-logo {
+        height: 100%;
+        width: 50%;
+        }
+        .small-logo img {
+            height: 15vh;
+            width: 350px;
+        }
+    .contact-navigation {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+        padding-right: 20px;
+        }
+        .contact-navigation a{
+            text-decoration: none;
+        }
+.contact-content {
+    height: 65vh;
+    width: 100vw;
+    /* border: 1px solid var(--black); */
+    }
+    .contact-content-cont1 {
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "DynaPuff", system-ui;
+        font-weight: 800;
+        font-size: 2rem;
+        color: var(--secondary-color);
+    }
+    .contact-content-cont2 {
+        height: 53vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .contact-inputs1 {
+            height: 100%;
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            }
+            .contact-inputs1 div:nth-child(1){
+                height: 50px;
+                width: 100%;
+                border-radius: 10px ;
+                }
+                .input-name input {
+                    border: 2px solid var(--secondary-color);
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px ;
+                    background-color: var(--white);
+                    padding-left: 10px;
+                    outline: none;
+                    transition: width 0.3s ease-in-out, border-color 0.3s ease;
+                    font-size: 1rem;
+
+                }
+                .input-name input:focus{
+                    border: 3px solid var(--tirtiary-color);
+                }
+            .contact-inputs1 div:nth-child(2){
+                height: 50px;
+                width: 100%;
+                border-radius: 10px ;
+                }
+                .input-email input{
+                    border: 2px solid var(--secondary-color);
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px ;
+                    background-color: var(--white);
+                    padding-left: 10px;
+                    outline: none;
+                    transition: width 0.3s ease-in-out, border-color 0.3s ease;
+                    font-size: 1rem;
+                }
+                .input-email input:focus{
+                    border: 3px solid var(--tirtiary-color);
+                }
+            .contact-inputs1 div:nth-child(3){
+                height: 150px;
+                width: 100%;
+                border-radius: 10px ;
+                }
+                .input-subject textarea{
+                    border: 2px solid var(--secondary-color);
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px ;
+                    background-color: var(--white);
+                    padding-left: 10px;
+                    outline: none;
+                    transition: width 0.3s ease-in-out, border-color 0.3s ease;
+                    resize: none; 
+                    overflow: auto;
+                    font-size: 1rem;
+
+                }
+                .input-subject textarea:focus{
+                    border: 3px solid var(--tirtiary-color);
+                }
+
+        .contact-inputs2 {
+            height: 100%;
+            width: 35%;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            }
+            .input-message {
+                height: 270px;
+                width: 100%;
+                border-radius: 10px ;
+                }
+                .input-message textarea{
+                    border: 2px solid var(--secondary-color);
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px ;
+                    background-color: var(--white);
+                    padding-left: 10px;
+                    outline: none;
+                    transition: width 0.3s ease-in-out, border-color 0.3s ease;
+                    resize: none; 
+                    overflow: auto;
+                    font-size: 1rem;
+                }
+                .input-message textarea:focus{
+                    border: 3px solid var(--tirtiary-color);
+                }
+            .send-btn {
+                height: 45px;
+                width: 150px;
+                border: 2px solid var(--secondary-color );
+                border-radius: 5px ;
+                background-color: var(--secondary-color);
+                }
+                .send-btn button{
+                    height: 100%;
+                    width: 100%;
+                    border: 2px solid var(--secondary-color );
+                    border-radius: 5px ;
+                    background-color: var(--secondary-color);
+                    color: var(--main-color);
+                    font-size: 1.25rem;
+                }
+.contact-footer {
+    height: 25vh;
+    width: 100vw;
+    background-color: var(--secondary-color);
+    }
+    .footer1 {
+        height: 17vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .quote {
+            height: 13vh;
+            width: 23vw;
+            border-right: 3px solid var(--main-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--main-color);
+            font-size: larger;
+            padding: 20px;
+            }
+            .quote span{
+                font-weight: 600;
+            }
+        .quick-nav {
+            height: 13vh;
+            width: 12vw;
+            border-right: 3px solid var(--main-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+            .quick-nav ul {
+                list-style: none; 
+                gap: 20px; 
+            }
+            
+            .quick-nav ul li a {
+                text-decoration: none; 
+                color:var(--main-color);
+                font-size: 16px; 
+                transition: color 0.3s ease; 
+            }
+            
+            .quick-nav ul li a:hover {
+                color: var(--tirtiary-color); 
+            }
+        .soc-med {
+            height: 13vh;
+            width: 45vw;
+            border-right: 3px solid var(--main-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--main-color);
+            gap: 10px;
+            }
+        .info {
+            height: 13vh;
+            width: 20vw;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            color: var(--main-color);
+            gap: 10px;
+            flex-direction: column;
+            padding-left: 20px;
+            }
+            .email {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                }
+                .email i, .phone i{
+                    font-size: 1.5rem;
+                }
+            .phone {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+    .footer2 {
+        height: 8vh;
+        width: 100vw;
+        border-top: 3px solid var(--main-color);
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        color: var(--main-color);
+        }
+        .footer2 p:nth-child(1) {
+            font-size: larger;
+            font-weight: 500;
+        }
+        .footer2 a {
+            text-decoration: none;
+            color: var(--main-color);
+        }
+        .footer2 a:hover{
+            color: var(--tirtiary-color);
+        }
+
+
+/* --------------------CONTACT------------------------ */
+
+.ppts-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 90vh;
+    width: 100vw;
+}
+
+.privacy-policy, .terms-of-service{
+    max-width: 700px;
+    margin: 5px auto;
+    padding: 20px;
+    background: var(--white);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    }
+    .privacy-policy h1,.privacy-policy h2 ,.terms-of-service h1,.terms-of-service h2{
+        color: var(--secondary-color);
+      }
+      .privacy-policy p,.privacy-policy li ,.terms-of-service p,.terms-of-service li{
+        color: #555;
+      }
+      .privacy-policy ul, .terms-of-service ul {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+
+.scrollable {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    }
+    .scrollable strong {
+        font-weight: 700;
+    }
