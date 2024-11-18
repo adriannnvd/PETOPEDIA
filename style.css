@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+
+
 
 :root {
     --main-color : #FEF9EA;
@@ -12,12 +17,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Sour Gummy", sans-serif;
+    font-family: "Sour Gummy";
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 }
 html, body {
     overflow: hidden;  
@@ -27,7 +30,13 @@ html, body {
     padding: 0;
 }
 body {
+    font-family: "Sour Gummy", sans-serif;
     background-color: var(--main-color);
+    box-sizing: border-box;
+    font-family: "Sour Gummy";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 /* --------------------LANDING PAGE------------------------ */
 .landing-page{
@@ -315,6 +324,23 @@ body {
     justify-content: center;
     align-items: center;
     }
+    .category-buttons .dog-button .dog-category-btn:hover,
+    .category-buttons .cat-button .cat-category-btn:hover,
+    .category-buttons .fish-button .fish-category-btn:hover,
+    .category-buttons .bird-button .bird-category-btn:hover
+    {
+        color: var(--main-color);
+        background-color: var(--tirtiary-color);
+        border: var(--tirtiary-color);
+    }
+    .category-buttons .dog-button a,
+    .category-buttons .cat-button a,
+    .category-buttons .fish-button a,
+    .category-buttons .bird-button a
+    {
+        text-decoration: none;
+        
+    }
     .pet-category{
         height: 30vh;
         width: 16vw;        
@@ -342,7 +368,7 @@ body {
             right: 0px;
 
         }
-        .dog-category-btn {
+        .dog-category-btn{
             height: 75px;
             width: 15vw     ;
             border: 3px solid var(--secondary-color);
@@ -388,19 +414,19 @@ body {
         width: 16vw;
         position: relative;
         }
-        .fish-button img:nth-child(1) {
+        .fish-button img {
             height: 140px;
             width: 150px; 
             position: absolute;
             right: 120px;
         }
-        .fish-button img:nth-child(2) {
+        /* .fish-button img:nth-child(2) {
             height: 140px;
             width: 150px; 
             position: absolute;
             left: 110px;   
             bottom: 20px;
-        }
+        } */
         .fish-category-btn {
             height: 75px;
             width: 15vw     ;
@@ -425,7 +451,7 @@ body {
             height: 100px;
             width: 150px; 
             position: absolute;
-            bottom: 115px;
+            bottom: 117px;
         }
         .bird-category-btn {
             height: 75px;
@@ -491,6 +517,24 @@ body {
             display: flex;
             align-items: center;
             justify-content: baseline;
+            }
+
+            .about-buttons .about-dog .dog-about-btn:hover,
+            .about-buttons .about-cat .cat-about-btn:hover,
+            .about-buttons .about-fish .fish-about-btn:hover,
+            .about-buttons .about-bird .bird-about-btn:hover
+            {
+                color: var(--main-color);
+                background-color: var(--tirtiary-color);
+                border: var(--tirtiary-color);
+            }
+            .about-buttons .about-dog a,
+            .about-buttons .about-cat a,
+            .about-buttons .about-fish a,
+            .about-buttons .about-bird a
+            {
+                text-decoration: none;
+                
             }
             .about-pet-button {
                 height: 100%;
@@ -607,7 +651,7 @@ body {
                 }
 
 /* --------------------CONTACT------------------------ */
-.contact-header {
+.long-header {
     height: 10vh;
     width: 100vw;
     display: flex;
@@ -644,11 +688,15 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "DynaPuff", system-ui;
-        font-weight: 800;
         font-size: 2rem;
         color: var(--secondary-color);
-    }
+        padding-top: 30px;
+        }
+        .contact-content-cont1 h1{
+            font-weight: 400;
+            font-family: "Coiny", system-ui;
+            font-style: normal;
+        }
     .contact-content-cont2 {
         height: 53vh;
         width: 100vw;
@@ -885,7 +933,7 @@ body {
         }
 
 
-/* --------------------CONTACT------------------------ */
+/* --------------------PRIVACY POLICY AND TERMS OF SERVICE------------------------ */
 
 .ppts-content {
     display: flex;
@@ -925,3 +973,183 @@ body {
     .scrollable strong {
         font-weight: 700;
     }
+
+/* -------------------  DOGS ------------------------ */
+.pet-container {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+    }
+    .dog-pet-caption,
+    .cat-pet-caption,
+    .fish-pet-caption,
+    .bird-pet-caption
+     {
+        height: 20vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--secondary-color);
+        font-size: 2.5rem;
+        padding-top: 60px;
+        position: relative;
+        }
+        .dog-pet-caption h1,
+        .cat-pet-caption h1 ,
+        .fish-pet-caption h1 ,
+        .bird-pet-caption h1  {
+            font-weight: 400;
+            font-family: "Coiny", system-ui;
+            font-style: normal;
+        }
+        .dog-pet-caption img,
+        .cat-pet-caption img,
+        .fish-pet-caption img,
+        .bird-pet-caption img {
+            height: 100px;
+            position: absolute;
+        }
+        
+        .dog-pet-caption :nth-child(1){
+            top: 40px;
+            left: 200px;
+        }
+        .dog-pet-caption :nth-child(2){
+            height: 45px; 
+            background-color: var(--secondary-color);
+            top: 69px;
+            right: 361px;
+            border-radius: 20px ;
+        }
+        .dog-pet-caption :nth-child(3){
+            top: 35px;
+            right: 220px;
+        
+        }
+
+        .cat-pet-caption :nth-child(1){
+            top: 35px;
+            left: 230px;
+        }
+        .cat-pet-caption :nth-child(2){
+            height: 90px; 
+            top: 10px;
+            right: 307px;
+        }
+        .cat-pet-caption :nth-child(3){
+            top: 35px;
+            right: 225px;
+        
+        }
+
+        .fish-pet-caption h1 {
+            z-index: 99;
+        }
+        .fish-pet-caption :nth-child(1){
+            top: 0;
+            left: 220px;
+            height: 120px; 
+        }
+        .fish-pet-caption :nth-child(2){
+            height: 120px; 
+            top: 0;
+            right: 200px;
+        }
+
+        .bird-pet-caption :nth-child(1){
+            top: 47px;
+            left: 195px;
+            height: 80px;
+        }
+        .bird-pet-caption :nth-child(2){
+            height: 80px; 
+            top: 12px;
+            right: 342px;
+        }
+        .bird-pet-caption :nth-child(3){
+            top: 35px;
+            right: 225px;
+            height: 60px;
+        
+        }
+ .pick-dog , .pick-cat, .pick-fish, .pick-bird {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    }
+    .dog-column,
+    .cat-column,
+    .fish-column,
+    .bird-column  {
+        height: 100%;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        flex-direction: column;
+        }
+        .dog, .cat, .fish, .bird {
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .dog img {
+            height: 80px;
+            position: absolute;
+            bottom: 25px;
+            right: 230px;
+        }
+        .cat img{
+            height: 70px;
+            position: absolute;
+            bottom: 65px;
+        }
+        .fish img {
+            height: 100px;
+            position: absolute;
+            left: -10px;
+         
+        }
+        .bird img {
+            height: 80px;
+            position: absolute;
+            right: -10px;
+            bottom: 7px;
+        }
+        .bird img:nth-child(1){
+            height: 50px;
+            left: -15px;
+            top: 2px;
+        }
+
+        .dog h2,
+        .cat h2,
+        .fish h2,
+        .bird h2
+         {
+            height: 60px;
+            width: 275px;
+            border: 1px solid var(--secondary-color);
+            background-color: var(--white);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+        }
+
