@@ -974,7 +974,7 @@ body {
         font-weight: 700;
     }
 
-/* -------------------  DOGS ------------------------ */
+/* -------------------  PETS ------------------------ */
 .pet-container {
     height: 100vh;
     width: 100vw;
@@ -1152,4 +1152,81 @@ body {
             color: var(--secondary-color);
             font-size: 1.5rem;
         }
+        .dog-column a{
+            text-decoration: none;
+        }
+        .dog h2:hover,
+        .cat h2:hover,
+        .fish h2:hover,
+        .bird h2:hover{
+            color: var(--main-color);
+            border: 1px solid var(--tirtiary-color);
+            background-color: var(--tirtiary-color);
+        }
 
+
+/* -------------------  PET ENCYCLOPEDIA ------------------------ */
+.pet-info {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    }
+    .pet-picture {
+        height: 70vh;
+        width: 400px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .pet-picture img {
+            height: 70vh;
+            border: 2px solid var(--secondary-color);
+            width: 400px;
+            border-radius: 20px;
+        }
+    .pet-details {
+        height: 70vh;
+        width: 700px;
+
+    }
+    .pet-name {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        color: var(--secondary-color);
+        }
+        .pet-name h2 {
+            font-weight: 400;
+            font-family: "Coiny", system-ui;
+            font-style: normal;
+            font-size: 3rem;
+        }
+        .pet-description {
+            font-size: 1.1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .pet-paragraph{
+            text-align: justify;
+            text-indent: 2rem;
+        }
+        .pet-description span {
+            color: var(--secondary-color);
+            font-weight: 700;
+        }
+        .pet-personality li{
+            margin-left: 3rem;
+        }
+        .pet-link span{
+            color: var(--secondary-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        .pet-link a{
+            color: ba;
+        }
