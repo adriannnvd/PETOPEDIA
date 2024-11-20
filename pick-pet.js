@@ -203,6 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update the page title to reflect the pet's name
         document.title = `${pet.name} - Pet Encyclopedia`; // This changes the title dynamically
     } else {
-        document.querySelector('.pet-info').innerHTML = '<p>No details available for the selected pet.</p>';
+        document.querySelector('.pet-info').innerHTML = '<p class="no-details">No details available for the selected pet. :(</p>';
     }
 });

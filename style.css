@@ -1174,6 +1174,7 @@ body {
     justify-content: center;
     gap: 25px;
     }
+   
     .pet-picture {
         height: 70vh;
         width: 400px;
@@ -1229,4 +1230,10 @@ body {
         }
         .pet-link a{
             color: ba;
+        }
+
+        .no-details {
+            color: var(--secondary-color);
+            font-size: 2rem;
+            font-weight: 600;
         }
