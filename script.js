@@ -24,3 +24,6 @@ exploreBtn.addEventListener('mouseout', () => {
     exploreIcon.style.height = '100px'; // Restore size
     exploreIcon.style.top = '0'; // Restore position
 });
+
+
+

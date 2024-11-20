@@ -1215,7 +1215,7 @@ body {
             text-align: justify;
             text-indent: 2rem;
         }
-        .pet-description span {
+        .pet-description strong, .pet-personality strong {
             color: var(--secondary-color);
             font-weight: 700;
         }
