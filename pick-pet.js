@@ -31,6 +31,36 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/German_Shepherd"
         },
+        "labrador-retriever": {
+            name: "Labrador Retriever",
+            image: "/images/dog/Labrador-Retriever.jpg",  
+            description: "Labrador Retrievers are friendly, outgoing, and high-spirited dogs that are easy to train. They are one of the most popular breeds in the world and make excellent family pets due to their playful and loving nature.",
+            origin: "Canada",
+            lifespan: "10–12 years",
+            color: "Black, Yellow, Chocolate",
+            personality: [
+                "Friendly and social.",
+                "Eager to please.",
+                "Great with children and other pets.",
+                "Active and requires regular exercise."
+            ],
+            link: "https://en.wikipedia.org/wiki/Labrador_Retriever"
+        },
+        "bulldog": {
+            name: "Bulldog",
+            image: "/images/dog/Bulldog.jpg",  
+            description: "Bulldogs are known for their muscular build and lovable, affectionate nature. Despite their tough exterior, they are gentle and get along well with children and other pets. Bulldogs are loyal companions and are known for their calm and laid-back attitude.",
+            origin: "England",
+            lifespan: "8–12 years",
+            color: "Fawn, White, Brindle",
+            personality: [
+                "Affectionate and loyal.",
+                "Calm and laid-back.",
+                "Good with children and pets.",
+                "Low-maintenance in terms of exercise, but needs regular grooming."
+            ],
+            link: "https://en.wikipedia.org/wiki/Bulldog"
+        },
 
         //  CATS
         persian: {
@@ -63,6 +93,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
             ],
             link: "https://en.wikipedia.org/wiki/Siamese_cat"
+        },
+        "maine-coon": {
+            name: "Maine Coon",
+            image: "/images/cat/Maine-Coon.jpg", 
+            description: "Maine Coons are one of the largest domestic cat breeds. They are known for their friendly, playful, and intelligent nature. Maine Coons are also highly social and enjoy interacting with their human companions. They have long, thick fur and a bushy tail, which helps them adapt to cold climates.",
+            origin: "United States ",
+            lifespan: "12–15 years",
+            color: "Tabby, Black, Blue, White, Red",
+            personality: [
+                "Friendly and social.",
+                "Intelligent and trainable.",
+                "Playful and curious.",
+                "Loves water and enjoys playing in it."
+            ],
+            link: "https://en.wikipedia.org/wiki/Maine_Coon"
         },
         
         // FISH
