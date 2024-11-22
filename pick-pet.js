@@ -61,6 +61,51 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Bulldog"
         },
+        "beagle": {
+            name: "Beagle",
+            image: "/images/dog/Beagle.jpg",
+            description: "Beagles are small to medium-sized dogs known for their keen sense of smell and tracking abilities. They are friendly, curious, and make excellent companions.",
+            origin: "England",
+            lifespan: "12–15 years",
+            color: "Tri-color, Lemon, White and Tan",
+            personality: [
+                "Cheerful and sociable.",
+                "Energetic and playful.",
+                "Loves to explore and sniff around.",
+                "Great with families and other pets."
+            ],
+            link: "https://en.wikipedia.org/wiki/Beagle"
+        },
+        "shih-tzu": {
+            name: "Shih Tzu",
+            image: "/images/dog/Shih-Tzu.jpg",
+            description: "Shih Tzus are small, toy-sized dogs known for their long, luxurious coats and charming personalities. They are affectionate, playful, and great for apartment living.",
+            origin: "China",
+            lifespan: "10–16 years",
+            color: "Black, White, Gold, Brindle",
+            personality: [
+                "Playful and friendly.",
+                "Loves attention and companionship.",
+                "Adaptable to indoor living.",
+                "Requires regular grooming."
+            ],
+            link: "https://en.wikipedia.org/wiki/Shih_Tzu"
+        },
+        "pomeranian": {
+            name: "Pomeranian",
+            image: "/images/dog/Pomeranian.jpg",
+            description: "Pomeranians are small, fluffy dogs known for their fox-like faces and lively personalities. They are highly energetic and make great companions.",
+            origin: "Germany/Poland",
+            lifespan: "12–16 years",
+            color: "Orange, Black, White, Cream, Blue",
+            personality: [
+                "Bold and outgoing.",
+                "Energetic and playful.",
+                "Loyal to their owners.",
+                "Alert and makes a good watchdog."
+            ],
+            link: "https://en.wikipedia.org/wiki/Pomeranian_(dog)"
+        },
 
         //  CATS
         persian: {
