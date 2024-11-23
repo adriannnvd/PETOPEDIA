@@ -154,7 +154,66 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Maine_Coon"
         },
-        
+        "bengal": {
+            name: "Bengal Cat",
+            image: "/images/cat/Bengal.jpg",
+            description: "Bengal cats are known for their exotic, leopard-like spotted coat and high energy. They are intelligent, active, and love interactive playtime with their owners.",
+            origin: "United States",
+            lifespan: "12–16 years",
+            color: "Spotted or Rosetted: Brown, Silver, Snow",
+            personality: [
+                "Active and playful.",
+                "Highly curious and adventurous.",
+                "Loves climbing and exploring.",
+                "Affectionate but independent."
+            ],
+            link: "https://en.wikipedia.org/wiki/Bengal_cat"
+        },
+        "ragdoll": {
+            name: "Ragdoll",
+            image: "/images/cat/Ragdoll.jpg",
+            description: "Ragdolls are large, gentle cats known for their laid-back personality and tendency to relax when picked up. They are affectionate and enjoy spending time with their owners.",
+            origin: "United States",
+            lifespan: "12–17 years",
+            color: "Seal, Blue, Chocolate, Lilac, Cream",
+            personality: [
+                "Calm and gentle.",
+                "Affectionate and loyal.",
+                "Great with children and other pets.",
+                "Loves cuddling and attention."
+            ],
+            link: "https://en.wikipedia.org/wiki/Ragdoll"
+        },
+        "sphynx": {
+            name: "Sphynx",
+            image: "/images/cat/Sphynx.jpg",
+            description: "Sphynx cats are known for their hairless bodies, which highlight their unique features. They are affectionate, playful, and enjoy being the center of attention.",
+            origin: "Canada",
+            lifespan: "8–14 years",
+            color: "Variety of skin tones including Pink, Black, Cream, Gray",
+            personality: [
+                "Loving and affectionate.",
+                "Playful and energetic.",
+                "Thrives on human companionship.",
+                "Sensitive to temperature changes."
+            ],
+            link: "https://en.wikipedia.org/wiki/Sphynx_cat"
+        },
+        "scottish-fold": {
+            name: "Scottish Fold",
+            image: "/images/cat/Scottish-Fold.jpg",
+            description: "Scottish Folds are known for their distinctive folded ears and round, owl-like faces. They are sweet, calm, and enjoy being around people.",
+            origin: "Scotland",
+            lifespan: "11–14 years",
+            color: "Variety including White, Black, Blue, Tabby",
+            personality: [
+                "Calm and gentle.",
+                "Loves human interaction.",
+                "Adapts well to indoor living.",
+                "Playful but not overly active."
+            ],
+            link: "https://en.wikipedia.org/wiki/Scottish_Fold"
+        },
         // FISH
         goldfish: {
         name: "Goldfish",
