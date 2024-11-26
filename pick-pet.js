@@ -260,6 +260,81 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Clownfish"
         },
+        guppy: {
+            name: "Guppy",
+            image: "/images/fish/Guppy.jpg",
+            description: "Guppies are vibrant and easy-to-care-for fish, ideal for beginners. They come in a variety of colors and patterns.",
+            origin: "South America",
+            lifespan: "1–3 years",
+            color: "Variety including Red, Blue, Yellow, Green",
+            personality: [
+                "Peaceful and social.",
+                "Active swimmers.",
+                "Adaptable to different tank conditions.",
+                "Easily breeds in captivity."
+            ],
+            link: "https://en.wikipedia.org/wiki/Guppy"
+        },
+        angelfish: {
+            name: "Angelfish",
+            image: "/images/fish/Angelfish.jpg",
+            description: "Angelfish are graceful freshwater fish with long fins and striking patterns. They are popular in aquariums for their beauty.",
+            origin: "South America",
+            lifespan: "10–15 years",
+            color: "Silver, Black, Gold, Marble",
+            personality: [
+                "Semi-aggressive.",
+                "Prefers planted tanks.",
+                "Needs a peaceful tank environment.",
+                "Pairs well with non-aggressive species."
+            ],
+            link: "https://en.wikipedia.org/wiki/Freshwater_angelfish"
+        },
+        tetra: {
+            name: "Tetra",
+            image: "/images/fish/Tetra.jpg",
+            description: "Tetras are small, colorful fish that thrive in schools. Their vibrant colors make them a popular choice for community tanks.",
+            origin: "South America",
+            lifespan: "5–10 years",
+            color: "Variety including Neon, Red, Blue",
+            personality: [
+                "Peaceful and social.",
+                "Enjoys living in schools.",
+                "Active swimmers.",
+                "Easily adapts to tank environments."
+            ],
+            link: "https://en.wikipedia.org/wiki/Tetra"
+        },
+        discus: {
+            name: "Discus",
+            image: "/images/fish/Discus.jpg",
+            description: "Discus fish are known for their vibrant colors and unique circular shape. They require more care but are highly rewarding for enthusiasts.",
+            origin: "Amazon River Basin",
+            lifespan: "10–15 years",
+            color: "Variety including Red, Blue, Green",
+            personality: [
+                "Social and peaceful.",
+                "Thrives in planted tanks.",
+                "Sensitive to water conditions.",
+                "Forms strong bonds with tank mates."
+            ],
+            link: "https://en.wikipedia.org/wiki/Discus_(fish)"
+        },
+        zebrafish: {
+            name: "Zebrafish",
+            image: "/images/fish/Zebrafish.jpg",
+            description: "Zebrafish are small, striped fish that are hardy and great for beginner aquarists. They are highly active and social.",
+            origin: "South Asia",
+            lifespan: "2–5 years",
+            color: "Silver with Blue Stripes",
+            personality: [
+                "Hardy and active.",
+                "Enjoys schooling.",
+                "Easy to care for.",
+                "Adapts well to various tank setups."
+            ],
+            link: "https://en.wikipedia.org/wiki/Zebrafish"
+        },
 
         //BIRD
         parrot: {
