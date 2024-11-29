@@ -106,6 +106,96 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Pomeranian_(dog)"
         },
+        "chow-chow": {
+            name: "Chow Chow",
+            image: "/images/dog/Chow-Chow.jpg",
+            description: "Chow Chows are known for their lion-like mane and dignified demeanor. They are independent and loyal companions.",
+            origin: "China",
+            lifespan: "8–12 years",
+            color: "Red, Black, Blue, Cinnamon, Cream",
+            personality: [
+                "Independent and aloof.",
+                "Highly loyal to their family.",
+                "Requires socialization and training.",
+                "Calm but protective."
+            ],
+            link: "https://en.wikipedia.org/wiki/Chow_Chow"
+        },
+        "siberian-husky": {
+            name: "Siberian Husky",
+            image: "/images/dog/Siberian-Husky.jpg",
+            description: "Siberian Huskies are energetic, friendly dogs known for their striking blue eyes and wolf-like appearance.",
+            origin: "Siberia, Russia",
+            lifespan: "12–15 years",
+            color: "Black, White, Gray, Red",
+            personality: [
+                "Energetic and playful.",
+                "Highly social and friendly.",
+                "Requires regular exercise.",
+                "Known for their vocal howls."
+            ],
+            link: "https://en.wikipedia.org/wiki/Siberian_Husky"
+        },
+        "shiba-inu": {
+            name: "Shiba Inu",
+            image: "/images/dog/Shiba-Inu.jpg",
+            description: "Shiba Inus are small, agile dogs known for their fox-like appearance and spirited personality.",
+            origin: "Japan",
+            lifespan: "12–16 years",
+            color: "Red, Black and Tan, Sesame, Cream",
+            personality: [
+                "Alert and confident.",
+                "Independent yet loyal.",
+                "Requires patience in training.",
+                "Loves outdoor activities."
+            ],
+            link: "https://en.wikipedia.org/wiki/Shiba_Inu"
+        },
+        "great-dane": {
+            name: "Great Dane",
+            image: "/images/dog/Great-Dane.jpg",
+            description: "Great Danes are gentle giants with a calm and friendly nature. Despite their large size, they are affectionate and make excellent family pets.",
+            origin: "Germany",
+            lifespan: "7–10 years",
+            color: "Fawn, Black, Blue, Brindle, Harlequin",
+            personality: [
+                "Gentle and friendly.",
+                "Affectionate with family.",
+                "Needs space due to size.",
+                "Calm and easygoing demeanor."
+            ],
+            link: "https://en.wikipedia.org/wiki/Great_Dane"
+        },
+        "border-collie": {
+            name: "Border Collie",
+            image: "/images/dog/Border-Collie.jpg",
+            description: "Border Collies are highly intelligent and energetic dogs, often considered the best herding breed.",
+            origin: "Scotland and England",
+            lifespan: "12–15 years",
+            color: "Black and White, Red, Blue Merle",
+            personality: [
+                "Highly intelligent and trainable.",
+                "Energetic and active.",
+                "Thrives on mental stimulation.",
+                "Excellent herding abilities."
+            ],
+            link: "https://en.wikipedia.org/wiki/Border_Collie"
+        },
+        "standard-poodle": {
+            name: "Standard Poodle",
+            image: "/images/dog/Standard-Poodle.jpg",
+            description: "Standard Poodles are highly intelligent and versatile dogs, known for their hypoallergenic coats and elegant appearance.",
+            origin: "Germany, France",
+            lifespan: "12–15 years",
+            color: "White, Black, Apricot, Brown",
+            personality: [
+                "Very intelligent and trainable.",
+                "Energetic and playful.",
+                "Loyal and affectionate.",
+                "Hypoallergenic coat, great for people with allergies."
+            ],
+            link: "https://en.wikipedia.org/wiki/Poodle"
+        },
 
         //  CATS
         persian: {
