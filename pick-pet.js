@@ -304,6 +304,37 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Scottish_Fold"
         },
+        "japanese-bobtail": {
+            name: "Japanese Bobtail",
+            image: "/images/cat/Japanese-Bobtail.jpg",
+            description: "Japanese Bobtails are known for their distinctive short tails and playful personalities. They are intelligent and bring joy to their owners.",
+            origin: "Japan",
+            lifespan: "9–15 years",
+            color: "Tricolor (Mi-ke), solid, or patterned",
+            personality: [
+                "Friendly and playful.",
+                "Highly intelligent and curious.",
+                "Active and enjoys games.",
+                "Loyal to their owners."
+            ],
+            link: "https://en.wikipedia.org/wiki/Japanese_Bobtail"
+        },
+        "turkish-angora": {
+            name: "Turkish Angora",
+            image: "/images/cat/Turkish-Angora.jpg",
+            description: "Turkish Angoras are elegant, graceful cats known for their silky fur and affectionate nature. They are social and love being around their families.",
+            origin: "Turkey",
+            lifespan: "12–18 years",
+            color: "White, Black, Blue, Cream, and others",
+            personality: [
+                "Affectionate and social.",
+                "Intelligent and playful.",
+                "Active and loves attention.",
+                "Loyal and forms strong bonds."
+            ],
+            link: "https://en.wikipedia.org/wiki/Turkish_Angora"
+        },
+
         // FISH
         goldfish: {
         name: "Goldfish",
@@ -424,6 +455,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Adapts well to various tank setups."
             ],
             link: "https://en.wikipedia.org/wiki/Zebrafish"
+        },
+        "molly": {
+            name: "Molly Fish",
+            image: "/images/fish/Molly.jpg",
+            description: "Molly fish are hardy, easy to care for, and come in a variety of colors. They are often kept in freshwater aquariums as they adapt to various conditions.",
+            origin: "North and Central America",
+            lifespan: "3–5 years",
+            color: "Black, White, Gold, Dalmatian",
+            personality: [
+                "Friendly and active.",
+                "Tolerates a wide range of water conditions.",
+                "Best kept in schools.",
+                "Can be kept with other peaceful fish."
+            ],
+            link: "https://en.wikipedia.org/wiki/Molly_fish"
         },
 
         //BIRD
