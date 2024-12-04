@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "german-shepherd": {
             name: "German Shepherd",
             image: "/images/dog/German-Shepherd.jpg",
-            description: "German Shepherds are known for their intelligence, loyalty, and versatility. They are often used in police work, search and rescue operations, and as service dogs due to their trainable nature and work ethic. They are also affectionate with their families and protective of them.",
+            description: "German Shepherds are renowned for their intelligence, loyalty, and adaptability, making them one of the most versatile dog breeds. They excel in various roles such as police work, search and rescue, and as service animals due to their trainable nature and strong work ethic. Beyond their professional abilities, they are loving and devoted family companions, known for being gentle with children and fiercely protective of their loved ones. With their boundless energy and keen intelligence, they thrive in active households and enjoy tasks that challenge both their minds and bodies.",
             origin: "Germany",
             lifespan: "9–13 years",
             color: "Black and Tan, Sable, Black, Red and Black",
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "labrador-retriever": {
             name: "Labrador Retriever",
             image: "/images/dog/Labrador-Retriever.jpg",  
-            description: "Labrador Retrievers are friendly, outgoing, and high-spirited dogs that are easy to train. They are one of the most popular breeds in the world and make excellent family pets due to their playful and loving nature.",
+            description: "Labrador Retrievers are known for their friendly, energetic, and outgoing personalities, making them one of the most beloved dog breeds worldwide. They are highly intelligent and eager to please, which makes them easy to train for various roles, including assistance work and therapy. Their playful and loving nature makes them excellent companions for families, especially those with children, as they are patient and gentle. Labradors thrive in active households where they can enjoy plenty of exercise and affection.",
             origin: "Canada",
             lifespan: "10–12 years",
             color: "Black, Yellow, Chocolate",
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "bulldog": {
             name: "Bulldog",
             image: "/images/dog/Bulldog.jpg",  
-            description: "Bulldogs are known for their muscular build and lovable, affectionate nature. Despite their tough exterior, they are gentle and get along well with children and other pets. Bulldogs are loyal companions and are known for their calm and laid-back attitude.",
+            description: "Bulldogs are cherished for their sturdy, muscular build and their sweet, affectionate disposition. Beneath their tough appearance lies a gentle soul that bonds well with children and other pets, making them ideal family companions. Known for their loyalty, Bulldogs thrive in loving homes where they can enjoy plenty of attention. Their calm and relaxed demeanor makes them well-suited to indoor living, while their playful side ensures they are delightful to be around.",
             origin: "England",
             lifespan: "8–12 years",
             color: "Fawn, White, Brindle",
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "beagle": {
             name: "Beagle",
             image: "/images/dog/Beagle.jpg",
-            description: "Beagles are small to medium-sized dogs known for their keen sense of smell and tracking abilities. They are friendly, curious, and make excellent companions.",
+            description: "Beagles are small to medium-sized dogs renowned for their exceptional sense of smell and tracking prowess, traits that make them popular as hunting and detection dogs. Their friendly and curious nature makes them delightful companions, especially for active families. Beagles are highly social and thrive in environments where they can engage in play and exploration. Their loyal and cheerful demeanor ensures they quickly become beloved members of any household.",
             origin: "England",
             lifespan: "12–15 years",
             color: "Tri-color, Lemon, White and Tan",
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "shih-tzu": {
             name: "Shih Tzu",
             image: "/images/dog/Shih-Tzu.jpg",
-            description: "Shih Tzus are small, toy-sized dogs known for their long, luxurious coats and charming personalities. They are affectionate, playful, and great for apartment living.",
+            description: "Shih Tzus are small, toy-sized dogs celebrated for their long, flowing coats and endearing personalities. Known for being affectionate and playful, they form strong bonds with their owners and thrive on companionship. Their friendly and adaptable nature makes them excellent pets for families and individuals alike, especially in apartment settings. Despite their regal appearance, Shih Tzus are low-maintenance when it comes to exercise, preferring short walks and indoor play.",
             origin: "China",
             lifespan: "10–16 years",
             color: "Black, White, Gold, Brindle",
