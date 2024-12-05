@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "pomeranian": {
             name: "Pomeranian",
             image: "/images/dog/Pomeranian.jpg",
-            description: "Pomeranians are small, fluffy dogs known for their fox-like faces and lively personalities. They are highly energetic and make great companions.",
+            description: "Pomeranians are small, fluffy dogs recognized for their fox-like faces and vibrant, outgoing personalities. They are highly energetic and thrive in active households, enjoying playtime and engaging with their owners. Despite their tiny size, they are confident and alert, often serving as excellent watchdogs. Their affectionate nature and adaptability make them delightful companions for both individuals and families.",
             origin: "Germany/Poland",
             lifespan: "12–16 years",
             color: "Orange, Black, White, Cream, Blue",
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "chow-chow": {
             name: "Chow Chow",
             image: "/images/dog/Chow-Chow.jpg",
-            description: "Chow Chows are known for their lion-like mane and dignified demeanor. They are independent and loyal companions.",
+            description: "Chow Chows are distinguished by their lion-like mane and proud, dignified demeanor. They are independent and reserved but form deep bonds with their families, displaying unwavering loyalty. Known for their calm and composed nature, Chow Chows are best suited to experienced owners who understand their unique personality. Their striking appearance and devoted companionship make them a remarkable addition to any home.",
             origin: "China",
             lifespan: "8–12 years",
             color: "Red, Black, Blue, Cinnamon, Cream",
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "siberian-husky": {
             name: "Siberian Husky",
             image: "/images/dog/Siberian-Husky.jpg",
-            description: "Siberian Huskies are energetic, friendly dogs known for their striking blue eyes and wolf-like appearance.",
+            description: "Siberian Huskies are energetic and outgoing dogs, renowned for their striking blue or multi-colored eyes and wolf-like appearance. They are friendly, sociable, and thrive in active households where they can channel their energy. Huskies are also known for their endurance and playful nature, making them excellent companions for those who enjoy outdoor adventures. Their intelligence and charm make them a beloved choice for dog enthusiasts worldwide.",
             origin: "Siberia, Russia",
             lifespan: "12–15 years",
             color: "Black, White, Gray, Red",
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "shiba-inu": {
             name: "Shiba Inu",
             image: "/images/dog/Shiba-Inu.jpg",
-            description: "Shiba Inus are small, agile dogs known for their fox-like appearance and spirited personality.",
+            description: "Shiba Inus are small, agile dogs admired for their fox-like appearance, sharp features, and confident demeanor. They are spirited and independent yet form strong bonds with their families, making them loyal companions. Shibas are known for their clean habits and cat-like agility, thriving in both active households and calmer environments. Their bold and curious nature makes them a standout among dog breeds.",
             origin: "Japan",
             lifespan: "12–16 years",
             color: "Red, Black and Tan, Sesame, Cream",
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "great-dane": {
             name: "Great Dane",
             image: "/images/dog/Great-Dane.jpg",
-            description: "Great Danes are gentle giants with a calm and friendly nature. Despite their large size, they are affectionate and make excellent family pets.",
+            description: "Great Danes are gentle giants celebrated for their calm and friendly nature, making them wonderful companions despite their imposing size. These affectionate dogs are great with families and often form strong bonds with their human companions. Known for their elegance and patience, Great Danes are equally at home lounging indoors or enjoying outdoor activities. Their loving temperament and loyal disposition make them a favorite among large dog breeds.",
             origin: "Germany",
             lifespan: "7–10 years",
             color: "Fawn, Black, Blue, Brindle, Harlequin",
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "standard-poodle": {
             name: "Standard Poodle",
             image: "/images/dog/Standard-Poodle.jpg",
-            description: "Standard Poodles are highly intelligent and versatile dogs, known for their hypoallergenic coats and elegant appearance.",
+            description: "Standard Poodles are highly intelligent and versatile dogs, admired for their hypoallergenic coats and elegant appearance. They excel in various activities, from obedience and agility to hunting and retrieving, showcasing their adaptability. Despite their refined look, they are playful, affectionate, and form strong bonds with their families. Standard Poodles thrive on mental and physical stimulation, making them ideal companions for active households.",
             origin: "Germany, France",
             lifespan: "12–15 years",
             color: "White, Black, Apricot, Brown",
