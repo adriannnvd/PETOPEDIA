@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // DOGS
         "german-shepherd": {
             name: "German Shepherd",
-            image: "/assets/images/dog/German-Shepherd.jpg",
+            image: "assets/images/dog/German-Shepherd.jpg",
             description: "German Shepherds are renowned for their intelligence, loyalty, and adaptability, making them one of the most versatile dog breeds. They excel in various roles such as police work, search and rescue, and as service animals due to their trainable nature and strong work ethic. Beyond their professional abilities, they are loving and devoted family companions, known for being gentle with children and fiercely protective of their loved ones. With their boundless energy and keen intelligence, they thrive in active households and enjoy tasks that challenge both their minds and bodies.",
             origin: "Germany",
             lifespan: "9–13 years",
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "labrador-retriever": {
             name: "Labrador Retriever",
-            image: "/assets/images/dog/Labrador-Retriever.jpg",  
+            image: "assets/images/dog/Labrador-Retriever.jpg",  
             description: "Labrador Retrievers are known for their friendly, energetic, and outgoing personalities, making them one of the most beloved dog breeds worldwide. They are highly intelligent and eager to please, which makes them easy to train for various roles, including assistance work and therapy. Their playful and loving nature makes them excellent companions for families, especially those with children, as they are patient and gentle. Labradors thrive in active households where they can enjoy plenty of exercise and affection.",
             origin: "Canada",
             lifespan: "10–12 years",
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "bulldog": {
             name: "Bulldog",
-            image: "/assets/images/dog/Bulldog.jpg",  
+            image: "assets/images/dog/Bulldog.jpg",  
             description: "Bulldogs are cherished for their sturdy, muscular build and their sweet, affectionate disposition. Beneath their tough appearance lies a gentle soul that bonds well with children and other pets, making them ideal family companions. Known for their loyalty, Bulldogs thrive in loving homes where they can enjoy plenty of attention. Their calm and relaxed demeanor makes them well-suited to indoor living, while their playful side ensures they are delightful to be around.",
             origin: "England",
             lifespan: "8–12 years",
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "beagle": {
             name: "Beagle",
-            image: "/assets/images/dog/Beagle.jpg",
+            image: "assets/images/dog/Beagle.jpg",
             description: "Beagles are small to medium-sized dogs renowned for their exceptional sense of smell and tracking prowess, traits that make them popular as hunting and detection dogs. Their friendly and curious nature makes them delightful companions, especially for active families. Beagles are highly social and thrive in environments where they can engage in play and exploration. Their loyal and cheerful demeanor ensures they quickly become beloved members of any household.",
             origin: "England",
             lifespan: "12–15 years",
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "shih-tzu": {
             name: "Shih Tzu",
-            image: "/assets/images/dog/Shih-Tzu.jpg",
+            image: "assets/images/dog/Shih-Tzu.jpg",
             description: "Shih Tzus are small, toy-sized dogs celebrated for their long, flowing coats and endearing personalities. Known for being affectionate and playful, they form strong bonds with their owners and thrive on companionship. Their friendly and adaptable nature makes them excellent pets for families and individuals alike, especially in apartment settings. Despite their regal appearance, Shih Tzus are low-maintenance when it comes to exercise, preferring short walks and indoor play.",
             origin: "China",
             lifespan: "10–16 years",
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "pomeranian": {
             name: "Pomeranian",
-            image: "/assets/images/dog/Pomeranian.jpg",
+            image: "assets/images/dog/Pomeranian.jpg",
             description: "Pomeranians are small, fluffy dogs recognized for their fox-like faces and vibrant, outgoing personalities. They are highly energetic and thrive in active households, enjoying playtime and engaging with their owners. Despite their tiny size, they are confident and alert, often serving as excellent watchdogs. Their affectionate nature and adaptability make them delightful companions for both individuals and families.",
             origin: "Germany/Poland",
             lifespan: "12–16 years",
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "chow-chow": {
             name: "Chow Chow",
-            image: "/assets/images/dog/Chow-Chow.jpg",
+            image: "assets/images/dog/Chow-Chow.jpg",
             description: "Chow Chows are distinguished by their lion-like mane and proud, dignified demeanor. They are independent and reserved but form deep bonds with their families, displaying unwavering loyalty. Known for their calm and composed nature, Chow Chows are best suited to experienced owners who understand their unique personality. Their striking appearance and devoted companionship make them a remarkable addition to any home.",
             origin: "China",
             lifespan: "8–12 years",
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "siberian-husky": {
             name: "Siberian Husky",
-            image: "/assets/images/dog/Siberian-Husky.jpg",
+            image: "assets/images/dog/Siberian-Husky.jpg",
             description: "Siberian Huskies are energetic and outgoing dogs, renowned for their striking blue or multi-colored eyes and wolf-like appearance. They are friendly, sociable, and thrive in active households where they can channel their energy. Huskies are also known for their endurance and playful nature, making them excellent companions for those who enjoy outdoor adventures. Their intelligence and charm make them a beloved choice for dog enthusiasts worldwide.",
             origin: "Siberia, Russia",
             lifespan: "12–15 years",
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "shiba-inu": {
             name: "Shiba Inu",
-            image: "/assets/images/dog/Shiba-Inu.jpg",
+            image: "assets/images/dog/Shiba-Inu.jpg",
             description: "Shiba Inus are small, agile dogs admired for their fox-like appearance, sharp features, and confident demeanor. They are spirited and independent yet form strong bonds with their families, making them loyal companions. Shibas are known for their clean habits and cat-like agility, thriving in both active households and calmer environments. Their bold and curious nature makes them a standout among dog breeds.",
             origin: "Japan",
             lifespan: "12–16 years",
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "great-dane": {
             name: "Great Dane",
-            image: "/assets/images/dog/Great-Dane.jpg",
+            image: "assets/images/dog/Great-Dane.jpg",
             description: "Great Danes are gentle giants celebrated for their calm and friendly nature, making them wonderful companions despite their imposing size. These affectionate dogs are great with families and often form strong bonds with their human companions. Known for their elegance and patience, Great Danes are equally at home lounging indoors or enjoying outdoor activities. Their loving temperament and loyal disposition make them a favorite among large dog breeds.",
             origin: "Germany",
             lifespan: "7–10 years",
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "border-collie": {
             name: "Border Collie",
-            image: "/assets/images/dog/Border-Collie.jpg",
+            image: "assets/images/dog/Border-Collie.jpg",
             description: "Border Collies are highly intelligent and energetic dogs, often considered the best herding breed.",
             origin: "Scotland and England",
             lifespan: "12–15 years",
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "standard-poodle": {
             name: "Standard Poodle",
-            image: "/assets/images/dog/Standard-Poodle.jpg",
+            image: "assets/images/dog/Standard-Poodle.jpg",
             description: "Standard Poodles are highly intelligent and versatile dogs, admired for their hypoallergenic coats and elegant appearance. They excel in various activities, from obedience and agility to hunting and retrieving, showcasing their adaptability. Despite their refined look, they are playful, affectionate, and form strong bonds with their families. Standard Poodles thrive on mental and physical stimulation, making them ideal companions for active households.",
             origin: "Germany, France",
             lifespan: "12–15 years",
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //  CATS
         persian: {
             name: "Persian Cat",
-            image: "/assets/images/cat/persian.jpg",
+            image: "assets/images/cat/persian.jpg",
             description: "Persians are known for their gentle temperament and enjoy the company of their human companions. They are often described as lap cats, loving to cuddle and spend time with their owners. While not as active as some other breeds, they are affectionate and will show their love through quiet companionship, often sitting beside or on their owner’s lap. They enjoy a peaceful and stable environment, making them ideal pets for those who prefer a quieter, more relaxed atmosphere.",
             origin: "Iran",
             lifespan: "12–17 years",
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         siamese: {
             name: "Siamese Cat",
-            image: "/assets/images/cat/Siamese.jpeg",
+            image: "assets/images/cat/Siamese.jpeg",
             description: "Siamese cats are extremely vocal, often talking to their owners with a unique and expressive voice. They communicate their needs, desires, and emotions with a wide range of sounds, from soft chirps to loud meows. Their vocalizations are not just a means of communication but a reflection of their strong emotional bonds with their human companions. Siamese cats are often referred to as the talkative breed, and they enjoy being the center of attention.",
             origin: "Thailand",
             lifespan: "12–15 years",
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "maine-coon": {
             name: "Maine Coon",
-            image: "/assets/images/cat/Maine-Coon.jpg", 
+            image: "assets/images/cat/Maine-Coon.jpg", 
             description: "Maine Coons are one of the largest domestic cat breeds. They are known for their friendly, playful, and intelligent nature. Maine Coons are also highly social and enjoy interacting with their human companions. They have long, thick fur and a bushy tail, which helps them adapt to cold climates.",
             origin: "United States ",
             lifespan: "12–15 years",
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "bengal": {
             name: "Bengal Cat",
-            image: "/assets/images/cat/Bengal.jpg",
+            image: "assets/images/cat/Bengal.jpg",
             description: "Bengal cats are known for their exotic, leopard-like spotted coat and high energy. They are intelligent, active, and love interactive playtime with their owners.",
             origin: "United States",
             lifespan: "12–16 years",
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "ragdoll": {
             name: "Ragdoll",
-            image: "/assets/images/cat/Ragdoll.jpg",
+            image: "assets/images/cat/Ragdoll.jpg",
             description: "Ragdolls are large, gentle cats known for their laid-back personality and tendency to relax when picked up. They are affectionate and enjoy spending time with their owners.",
             origin: "United States",
             lifespan: "12–17 years",
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "sphynx": {
             name: "Sphynx",
-            image: "/assets/images/cat/Sphynx.jpg",
+            image: "assets/images/cat/Sphynx.jpg",
             description: "Sphynx cats are known for their hairless bodies, which highlight their unique features. They are affectionate, playful, and enjoy being the center of attention.",
             origin: "Canada",
             lifespan: "8–14 years",
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "scottish-fold": {
             name: "Scottish Fold",
-            image: "/assets/images/cat/Scottish-Fold.jpg",
+            image: "assets/images/cat/Scottish-Fold.jpg",
             description: "Scottish Folds are known for their distinctive folded ears and round, owl-like faces. They are sweet, calm, and enjoy being around people.",
             origin: "Scotland",
             lifespan: "11–14 years",
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "japanese-bobtail": {
             name: "Japanese Bobtail",
-            image: "/assets/images/cat/Japanese-Bobtail.jpg",
+            image: "assets/images/cat/Japanese-Bobtail.jpg",
             description: "Japanese Bobtails are known for their distinctive short tails and playful personalities. They are intelligent and bring joy to their owners.",
             origin: "Japan",
             lifespan: "9–15 years",
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "turkish-angora": {
             name: "Turkish Angora",
-            image: "/assets/images/cat/Turkish-Angora.jpg",
+            image: "assets/images/cat/Turkish-Angora.jpg",
             description: "Turkish Angoras are elegant, graceful cats known for their silky fur and affectionate nature. They are social and love being around their families.",
             origin: "Turkey",
             lifespan: "12–18 years",
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // FISH
         goldfish: {
         name: "Goldfish",
-        image: "/assets/images/fish/Goldfish.jpg",
+        image: "assets/images/fish/Goldfish.jpg",
         description: "Goldfish are one of the most popular aquarium fish due to their vibrant colors and relatively easy care. They are known for their peaceful nature and are often kept in tanks as decorative pets. Goldfish come in a variety of colors, including orange, red, and white, and are often seen swimming gracefully in water.",
         origin: "China",
         lifespan: "10–15 years",
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         betta: {
             name: "Betta Fish",
-            image: "/assets/images/fish/Betta.jpg",
+            image: "assets/images/fish/Betta.jpg",
             description: "Betta fish, also known as Siamese fighting fish, are renowned for their vibrant colors and long, flowing fins. They are aggressive toward other males but can live peacefully with females or other species in separate spaces. Betta fish are often kept in individual tanks to prevent fighting.",
             origin: "Southeast Asia",
             lifespan: "3–5 years",
@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         clownfish: {
             name: "Clownfish",
-            image: "/assets/images/fish/Clownfish.jpg",
+            image: "assets/images/fish/Clownfish.jpg",
             description: "Clownfish are small, colorful fish known for their symbiotic relationship with sea anemones. Their vibrant orange and white coloration makes them easy to identify. They are hardy fish that do well in aquariums and can live with other species of fish in a peaceful environment.",
             origin: "Pacific Ocean, Indian Ocean",
             lifespan: "6–10 years",
@@ -383,7 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         guppy: {
             name: "Guppy",
-            image: "/assets/images/fish/Guppy.jpg",
+            image: "assets/images/fish/Guppy.jpg",
             description: "Guppies are vibrant and easy-to-care-for fish, ideal for beginners. They come in a variety of colors and patterns.",
             origin: "South America",
             lifespan: "1–3 years",
@@ -398,7 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         angelfish: {
             name: "Angelfish",
-            image: "/assets/images/fish/Angelfish.jpg",
+            image: "assets/images/fish/Angelfish.jpg",
             description: "Angelfish are graceful freshwater fish with long fins and striking patterns. They are popular in aquariums for their beauty.",
             origin: "South America",
             lifespan: "10–15 years",
@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         tetra: {
             name: "Tetra",
-            image: "/assets/images/fish/Tetra.jpg",
+            image: "assets/images/fish/Tetra.jpg",
             description: "Tetras are small, colorful fish that thrive in schools. Their vibrant colors make them a popular choice for community tanks.",
             origin: "South America",
             lifespan: "5–10 years",
@@ -428,7 +428,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         discus: {
             name: "Discus",
-            image: "/assets/images/fish/Discus.jpg",
+            image: "assets/images/fish/Discus.jpg",
             description: "Discus fish are known for their vibrant colors and unique circular shape. They require more care but are highly rewarding for enthusiasts.",
             origin: "Amazon River Basin",
             lifespan: "10–15 years",
@@ -443,7 +443,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         zebrafish: {
             name: "Zebrafish",
-            image: "/assets/images/fish/Zebrafish.jpg",
+            image: "assets/images/fish/Zebrafish.jpg",
             description: "Zebrafish are small, striped fish that are hardy and great for beginner aquarists. They are highly active and social.",
             origin: "South Asia",
             lifespan: "2–5 years",
@@ -458,7 +458,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "molly": {
             name: "Molly Fish",
-            image: "/assets/images/fish/Molly.jpg",
+            image: "assets/images/fish/Molly.jpg",
             description: "Molly fish are hardy, easy to care for, and come in a variety of colors. They are often kept in freshwater aquariums as they adapt to various conditions.",
             origin: "North and Central America",
             lifespan: "3–5 years",
@@ -475,7 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //BIRD
         parrot: {
             name: "Parrot",
-            image: "/assets/images/bird/Parrot.jpg",
+            image: "assets/images/bird/Parrot.jpg",
             description: "Parrots are known for their intelligence, ability to mimic human speech, and bright, colorful feathers. They are highly social birds and form strong bonds with their human companions. Parrots need plenty of interaction and stimulation, as they can get bored easily.",
             origin: "Worldwide (Tropical and Subtropical regions)",
             lifespan: "15–50 years, depending on the species",
@@ -490,7 +490,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         budgerigar: {
             name: "Budgerigar",
-            image: "/assets/images/bird/Budgerigar.jpg",
+            image: "assets/images/bird/Budgerigar.jpg",
             description: "Budgerigars, also known as budgies or parakeets, are small, friendly birds that make great pets. Known for their playful nature and ability to mimic human speech, they are one of the most popular pet birds. Budgies are active, curious, and easy to train.",
             origin: "Australia",
             lifespan: "5–10 years",
@@ -505,7 +505,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         cockatiel: {
             name: "Cockatiel",
-            image: "/assets/images/bird/Cockatiel.jpg",
+            image: "assets/images/bird/Cockatiel.jpg",
             description: "Cockatiels are known for their distinctive crest on top of their head and their cheerful, whistling sounds. These small parrots are easy to care for and make excellent companions. Cockatiels are affectionate and enjoy human interaction, making them one of the most popular pet birds.",
             origin: "Australia",
             lifespan: "10–14 years",
