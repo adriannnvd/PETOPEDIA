@@ -9,8 +9,8 @@ const exploreBtn = document.querySelector('.explore-btn');
 const exploreIcon = document.querySelector('.explore img');
 
 // Define original and hover images
-const newImageSrc = '/images/main/explore-icon-hover.png';
-const originalImageSrc = '/images/main/explore-icon.png';
+const newImageSrc = '/assets/images/main/explore-icon-hover.png';
+const originalImageSrc = '/assets/images/main/explore-icon.png';
 
 // Add hover event listeners
 exploreBtn.addEventListener('mouseover', () => {
