@@ -1346,25 +1346,56 @@ a {
     
     }
 
-    .pet-images-cont1, .pet-images-cont2 {
-        width: 100%;
-        align-items: center;
+    .pet-images-cont1 {
+        height: 80%;
+        width: 50%;
         display: flex;
-        gap: 5px;
-        height: 100%;
-       
-        
-    }
-
-    .pet1, .pet2, .pet3, .pet4 {
-       
-    }
-    
- 
-
-    .pet1 img, .pet2 img, .pet3 img, .pet4 img {
-        
-    }
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        }
+        .pet1 {
+            height: 45%;
+            width: 100%;
+            }
+            .pet1 img{
+                height: 100%;
+                width: 100%;
+            }
+        .pet2 {
+            height: 35%;
+            width: 100%;
+            }
+            .pet2 img{
+                height: 100%;
+                width: 100%;
+            }
+    .pet-images-cont2 {
+        height: 80%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        }
+        .pet3 {
+            height: 35%;
+            width: 100%;
+            }
+            .pet3 img{
+                height: 100%;
+                width: 100%;
+            }
+        .pet4 {
+            height: 45%;
+            width: 100%;
+            }
+            .pet4 img{
+                height: 100%;
+                width: 100%;
+            }
     
 }
 
