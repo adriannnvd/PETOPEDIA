@@ -39,6 +39,10 @@ body {
     font-style: normal;
     min-width: 320px;
 }
+
+a {
+    text-decoration: none;
+}
 /* --------------------LANDING PAGE------------------------ */
 .landing-page{
     height: 100vh;
@@ -118,33 +122,35 @@ body {
             display: flex;
             align-items: center;
             justify-content:center ;
-            position: relative;
+            /* position: relative; */
             }
             .main-logo img{
                 height: 60vh;
                 width: 35vw;
-                position: absolute;
-                top: 30px;
+                /* position: absolute;
+                top: 30px; */
             }
         .explore {
-            height: 30vh;
+            height: 100px;
             width: 100%;
             display: flex;
-            align-items: center;
-            display: flex;
+            align-items: center; 
             align-items: center;
             justify-content: center;
-            position: relative;
+            flex-direction: column;
+            /* position: relative; */
             }
             .explore img{
                 height: 100px;
-                position: absolute;
-                top: 0;
+                top: 11px;
+                position: relative;
+                /*top: 0;
+                z-index: 99; */
                 z-index: 99;
             }
             .explore-btn {
-                position: absolute;
-                top: 75px;
+                /* position: absolute;
+                top: 75px; */
                 height: 75px;
                 width: 300px;
                 border: 3px solid var(--secondary-color);
@@ -154,10 +160,15 @@ body {
                 justify-content: center;
                 color: var(--secondary-color);
                 background-color: var(--white);
-                right: 235px;
-            }
-            .explore-btn a{
+                /* right: 235px; */
                 text-decoration: none;
+                /* position: relative;
+                bottom: 13px; */
+            }
+
+
+            .explore-btn a {
+                text-decoration: none ;
                 color: var(--secondary-color);
                 height: 75px;
                 width: 300px;
@@ -1308,7 +1319,7 @@ body {
 
     .explore img {
         height: 50px;
-        right: 100px;
+        
         
     }
 
@@ -1353,7 +1364,7 @@ body {
 
 
 /* Mobile M*/
-@media (min-width: 321px) and (max-width: 376px){
+@media  (max-width: 376px){
 
   
    
@@ -1412,6 +1423,12 @@ body {
 
     .explore {
         height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+        
+
       
     }
 
@@ -1420,13 +1437,16 @@ body {
 
        
     }
+   
 
     .explore-btn {
         width: 150px;
         height: 50px;
         font-size: 10px;
-        right: 103px;
-        top: 38px;
+        
+        
+         /* right: 103px;
+        top: 38px;  */
         
     }
 
