@@ -1265,7 +1265,7 @@ a {
     /*-----------LANDING PAGE-------------*/
     .landing-page {
         flex-direction: column;
-        height: auto;
+        height: 100vh;
         /* padding: 10px; */
         align-items: center;
         
@@ -1408,7 +1408,7 @@ a {
     /*-----------LANDING PAGE-------------*/
     .landing-page {
         flex-direction: column;
-        height: auto;
+        height: 100vh;
         /* padding: 10px; */
         align-items: center;
         /* gap: 25px; */
@@ -1557,7 +1557,7 @@ a {
     /*-----------LANDING PAGE-------------*/
     .landing-page {
         flex-direction: column;
-        height: auto;
+        height: 100vh;
         /* padding: 10px; */
         align-items: center;
         gap: 10px;
