@@ -162,8 +162,8 @@ a {
                 background-color: var(--white);
                 /* right: 235px; */
                 text-decoration: none;
-                /* position: relative;
-                bottom: 13px; */
+                position: relative;
+                bottom: 13px;
             }
 
 
@@ -1259,14 +1259,14 @@ a {
     width: 100%;
 
 }
+
 /* Mobile S*/
 @media (min-width: 0px) and  (max-width: 320px) {
 
     /*-----------LANDING PAGE-------------*/
-    .landing-page {
+    /* .landing-page {
         flex-direction: column;
         height: 100vh;
-        /* padding: 10px; */
         align-items: center;
         
     }
@@ -1279,7 +1279,6 @@ a {
         flex-direction: column;
         padding: 10px;
         height: 50vh;
-        /* margin-top: 15px; */
 
     }
 
@@ -1331,12 +1330,10 @@ a {
         width: 150px;
         height: 50px;
         font-size: 10px;
-        /* right: 75px;
-        top: 38px; */
+     
         
     }
 
-    /* Fixing Pet Images Layout */
     .pet-images {
 
         width: 100vw;
@@ -1397,7 +1394,7 @@ a {
                 height: 100%;
                 width: 100%;
             }
-    
+     */
 }
 
 
@@ -1406,12 +1403,10 @@ a {
 
    
     /*-----------LANDING PAGE-------------*/
-    .landing-page {
+    /* .landing-page {
         flex-direction: column;
         height: 100vh;
-        /* padding: 10px; */
         align-items: center;
-        /* gap: 25px; */
     }
 
     .main-content {
@@ -1480,12 +1475,10 @@ a {
         width: 150px;
         height: 50px;
         font-size: 10px;
-        /* right: 103px;
-        top: 38px;  */
+       
         
     }
 
-    /* Fixing Pet Images Layout */
     .pet-images {
 
         width: 100vw;
@@ -1547,6 +1540,7 @@ a {
                 height: 100%;
                 width: 100%;
             }
+                 */
 }
 
 
@@ -1555,10 +1549,9 @@ a {
 @media (min-width: 377px) and (max-width: 426px){
    
     /*-----------LANDING PAGE-------------*/
-    .landing-page {
+    /* .landing-page {
         flex-direction: column;
         height: 100vh;
-        /* padding: 10px; */
         align-items: center;
         gap: 10px;
     }
@@ -1571,7 +1564,6 @@ a {
         flex-direction: column;
         padding: 10px;
         height: 50vh;
-        /* margin-top: 35px; */
         
         
     }
@@ -1629,7 +1621,6 @@ a {
         
     }
 
-     /* Fixing Pet Images Layout */
      .pet-images {
         width: 100vw;
         height: 50vh;
@@ -1688,7 +1679,7 @@ a {
             .pet4 img{
                 height: 100%;
                 width: 100%;
-            }
+            } */
 }
 
 
