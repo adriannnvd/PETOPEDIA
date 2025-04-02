@@ -334,7 +334,51 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Turkish_Angora"
         },
-
+        "british-shorthair": {
+            name: "British Shorthair",
+            image: "../assets/images/cat/British-Shorthair.jpg",
+            description: "The British Shorthair is a sturdy, plush-coated breed known for its round face and dense fur. These cats are calm, affectionate, and good-natured, making them excellent companions for families. They are independent but enjoy spending time with their owners.",
+            origin: "United Kingdom",
+            lifespan: "12–20 years",
+            color: "Blue, Black, White, Cream, Red, Silver, Golden",
+            personality: [
+                "Calm and easygoing.",
+                "Affectionate but not overly demanding.",
+                "Loyal and forms strong bonds with owners.",
+                "Great with children and other pets."
+            ],
+            link: "https://en.wikipedia.org/wiki/British_Shorthair"
+        },
+        "norwegian-forest": {
+            name: "Norwegian Forest",
+            image: "../assets/images/cat/Norwegian-Forest.jpg",
+            description: "The Norwegian Forest Cat is a large, strong breed with a thick, water-resistant coat suited for cold climates. These cats are friendly, intelligent, and playful. They enjoy climbing and exploring but are also affectionate and loyal to their owners.",
+            origin: "Norway",
+            lifespan: "14–16 years",
+            color: "White, Black, Blue, Red, Cream, Silver, Tortoiseshell",
+            personality: [
+                "Playful and adventurous.",
+                "Affectionate but independent.",
+                "Enjoys climbing and exploring.",
+                "Loyal and bonds well with families."
+            ],
+            link: "https://en.wikipedia.org/wiki/Norwegian_Forest_cat"
+        },
+        "russian-blue": {
+            name: "Russian Blue",
+            image: "../assets/images/cat/Russian-Blue.jpg",
+            description: "The Russian Blue is an elegant and intelligent breed known for its short, dense blue-gray coat and striking green eyes. These cats are gentle, reserved, and very affectionate with their families but may be shy around strangers.",
+            origin: "Russia",
+            lifespan: "15–20 years",
+            color: "Blue-Gray",
+            personality: [
+                "Gentle and reserved.",
+                "Affectionate with family but shy with strangers.",
+                "Highly intelligent and enjoys interactive play.",
+                "Quiet and well-mannered, making them excellent indoor pets."
+            ],
+            link: "https://en.wikipedia.org/wiki/Russian_Blue"
+        },
         // FISH
         goldfish: {
         name: "Goldfish",
@@ -471,9 +515,54 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Molly_fish"
         },
+        "oscar": {
+            name: "Oscar",
+            image: "../assets/images/fish/Oscar.jpg",
+            description: "Oscar fish are intelligent and can recognize their owners, often responding to feeding time with excitement. They are territorial and require a spacious tank. Their bold personality makes them fascinating pets for experienced fish keepers.",
+            origin: "South America",
+            lifespan: "10–15 years",
+            color: "Red, Orange, Tiger, Albino",
+            personality: [
+                "Highly intelligent and interactive.",
+                "Territorial and can be aggressive.",
+                "Needs a large tank with strong filtration.",
+                "Can be trained to recognize their owners."
+            ],
+            link: "https://en.wikipedia.org/wiki/Oscar_(fish)"
+        },
+        "corydoras": {
+            name: "Corydoras",
+            image: "../assets/images/fish/Corydoras.jpg",
+            description: "Corydoras catfish are small, peaceful bottom-dwellers that help keep aquariums clean by scavenging leftover food. They are social and prefer to be kept in groups. Their hardy nature makes them great for beginners.",
+            origin: "South America",
+            lifespan: "5–10 years",
+            color: "Bronze, Albino, Panda, Peppered",
+            personality: [
+                "Peaceful and social.",
+                "Active bottom-dweller.",
+                "Helps keep the tank clean.",
+                "Prefers to be kept in groups."
+            ],
+            link: "https://en.wikipedia.org/wiki/Corydoras"
+        },
+        "swordtail": {
+            name: "Swordtail",
+            image: "../assets/images/fish/Swordtail.jpg",
+            description: "Swordtail fish are livebearers known for their distinctive tail extensions in males. They are hardy, easy to care for, and thrive in community tanks. Their active and peaceful nature makes them great for beginners.",
+            origin: "Central America",
+            lifespan: "3–5 years",
+            color: "Red, Green, Black, Yellow",
+            personality: [
+                "Hardy and easy to care for.",
+                "Peaceful and good for community tanks.",
+                "Active swimmer and playful.",
+                "Males have a distinctive sword-like tail."
+            ],
+            link: "https://en.wikipedia.org/wiki/Swordtail"
+        },
 
         //BIRD
-        parrot: {
+        "parrot": {
             name: "Parrot",
             image: "../assets/images/bird/Parrot.jpg",
             description: "Parrots are known for their intelligence, ability to mimic human speech, and bright, colorful feathers. They are highly social birds and form strong bonds with their human companions. Parrots need plenty of interaction and stimulation, as they can get bored easily.",
@@ -488,7 +577,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Parrot"
         },
-        budgerigar: {
+        "budgerigar": {
             name: "Budgerigar",
             image: "../assets/images/bird/Budgerigar.jpg",
             description: "Budgerigars, also known as budgies or parakeets, are small, friendly birds that make great pets. Known for their playful nature and ability to mimic human speech, they are one of the most popular pet birds. Budgies are active, curious, and easy to train.",
@@ -503,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Budgerigar"
         },
-        cockatiel: {
+        "cockatiel": {
             name: "Cockatiel",
             image: "../assets/images/bird/Cockatiel.jpg",
             description: "Cockatiels are known for their distinctive crest on top of their head and their cheerful, whistling sounds. These small parrots are easy to care for and make excellent companions. Cockatiels are affectionate and enjoy human interaction, making them one of the most popular pet birds.",
@@ -518,7 +607,141 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             link: "https://en.wikipedia.org/wiki/Cockatiel"
         },
-        // Add more breeds as needed
+        "canary": {
+            name: "Canary",
+            image: "../assets/images/bird/Canary.jpg",
+            description: "Canaries are small songbirds known for their beautiful singing abilities. They are relatively easy to care for and come in a variety of colors. Males are particularly vocal and enjoy singing throughout the day.",
+            origin: "Macaronesian Islands",
+            lifespan: "5–10 years",
+            color: "Yellow, Orange, White, Red",
+            personality: [
+                "Excellent singers and melodious.",
+                "Low-maintenance and easy to care for.",
+                "Prefers being alone rather than in pairs.",
+                "Energetic and enjoys flying around its cage."
+            ],
+            link: "https://en.wikipedia.org/wiki/Canary_(bird)"
+        },
+        "finch": {
+            name: "Finch",
+            image: "../assets/images/bird/Finch.jpg",
+            description: "Finches are small, active birds that thrive in social groups. They are known for their soft chirping sounds and are best suited for large cages or aviaries where they can fly freely.",
+            origin: "Worldwide",
+            lifespan: "4–7 years",
+            color: "Brown, White, Black, Red",
+            personality: [
+                "Social and prefers to live in pairs or groups.",
+                "Very active and loves flying around.",
+                "Requires a spacious cage or aviary.",
+                "Makes soft, pleasant chirping sounds."
+            ],
+            link: "https://en.wikipedia.org/wiki/Finch"
+        },
+        "lovebird": {
+            name: "Lovebird",
+            image: "../assets/images/bird/Lovebird.jpg",
+            description: "Lovebirds are small parrots known for their affectionate nature and strong bonds with their companions. They are social, playful, and require regular interaction to stay happy and healthy.",
+            origin: "Africa",
+            lifespan: "10–15 years",
+            color: "Green, Blue, Peach, Yellow",
+            personality: [
+                "Highly affectionate and social.",
+                "Forms strong bonds with humans or other birds.",
+                "Playful and energetic, loves toys and interaction.",
+                "Needs companionship to prevent loneliness."
+            ],
+            link: "https://en.wikipedia.org/wiki/Lovebird"
+        },
+        "cockatoo": {
+            name: "Cockatoo",
+            image: "../assets/images/bird/Cockatoo.jpg",
+            description: "Cockatoos are intelligent and affectionate birds that form deep bonds with their owners. They are known for their playful nature and expressive crests, which they raise when excited or curious.",
+            origin: "Australia, Indonesia, Philippines",
+            lifespan: "40–60 years",
+            color: "White, Pink, Black, Grey",
+            personality: [
+                "Highly intelligent and social.",
+                "Loves human interaction and attention.",
+                "Can be loud and demanding.",
+                "Requires mental stimulation to stay happy."
+            ],
+            link: "https://en.wikipedia.org/wiki/Cockatoo"
+        },
+        "macaw": {
+            name: "Macaw",
+            image: "../assets/images/bird/Macaw.jpg",
+            description: "Macaws are large, colorful parrots known for their intelligence and strong social bonds. They are excellent mimics and can learn words and phrases. They require a lot of space and mental stimulation.",
+            origin: "Central and South America",
+            lifespan: "30–50 years",
+            color: "Red, Blue, Yellow, Green",
+            personality: [
+                "Highly intelligent and talkative.",
+                "Loyal and forms deep bonds with owners.",
+                "Needs a lot of space and interaction.",
+                "Playful and enjoys learning tricks."
+            ],
+            link: "https://en.wikipedia.org/wiki/Macaw"
+        },
+        "pigeon": {
+            name: "Pigeon",
+            image: "../assets/images/bird/Pigeon.jpg",
+            description: "Pigeons are intelligent birds known for their homing abilities. They are gentle and can be trained to recognize their owners. They have been used in history as messengers due to their excellent navigation skills.",
+            origin: "Worldwide",
+            lifespan: "5–15 years",
+            color: "Grey, White, Brown, Black",
+            personality: [
+                "Highly intelligent with excellent memory.",
+                "Gentle and easy to tame.",
+                "Can recognize human faces.",
+                "Strong homing instinct and navigation skills."
+            ],
+            link: "https://en.wikipedia.org/wiki/Pigeon"
+        },
+        "quaker": {
+            name: "Quaker Parrot",
+            image: "../assets/images/bird/Quaker.jpg",
+            description: "Quaker parrots, also known as Monk Parakeets, are social and intelligent birds that can mimic human speech. They are known for their playful and curious nature, making them great pets for interactive owners.",
+            origin: "South America",
+            lifespan: "20–30 years",
+            color: "Green, Blue, Grey, Yellow",
+            personality: [
+                "Excellent talkers and mimics.",
+                "Social and loves attention.",
+                "Curious and playful, enjoys exploring.",
+                "Can be territorial with their cage."
+            ],
+            link: "https://en.wikipedia.org/wiki/Monk_parakeet"
+        },
+        "toucan": {
+            name: "Toucan",
+            image: "../assets/images/bird/Toucan.jpg",
+            description: "Toucans are known for their large, colorful beaks and playful nature. They are social birds that require a spacious environment and a diet rich in fruits. Their intelligence makes them engaging pets, though they need specialized care.",
+            origin: "South America",
+            lifespan: "15–20 years",
+            color: "Black, White, Yellow, Orange",
+            personality: [
+                "Playful and active.",
+                "Social and enjoys human interaction.",
+                "Requires a specialized diet of fresh fruits.",
+                "Needs a large, enriched enclosure."
+            ],
+            link: "https://en.wikipedia.org/wiki/Toucan"
+        },
+        "hornbill": {
+            name: "Hornbill",
+            image: "../assets/images/bird/Hornbill.jpg",
+            description: "Hornbills are striking birds known for their large, curved bills and distinctive casques on top of their beaks. Native to parts of Africa and Asia, they are known for their unique nesting behavior and their diverse and vibrant appearances. Hornbills are social birds and are often found in pairs or small groups.",
+            origin: "Africa, Asia",
+            lifespan: "30–40 years",
+            color: "Black, White, Yellow, Orange",
+            personality: [
+                "Social birds, often found in pairs or small groups.",
+                "Known for their unique beak and casque.",
+                "Vocal and can produce a variety of sounds.",
+                "Strongly territorial and often use their beaks in courtship rituals."
+            ],
+            link: "https://en.wikipedia.org/wiki/Hornbill"
+        },
     };
 
     // Retrieve the breed key from the URL query parameter
